@@ -26,7 +26,7 @@ Follow these steps to install and set up Matrix Rain:
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/YourUsername/MatrixRain.git
+git clone https://github.com/Aerex0/MatrixRain.git
 cd MatrixRain
 ```
 
