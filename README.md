@@ -41,10 +41,11 @@ source matrix_env/bin/activate
 
 ### 3. Install Dependencies
 
-Install Pygame inside the virtual environment:
+Install Pygame and pyinstaller inside the virtual environment:
 
 ```bash
 pip install pygame
+pip install pyinstaller
 ```
 
 ### 4. Build the Standalone Executable
@@ -52,7 +53,7 @@ pip install pygame
 Use PyInstaller to create a single-file executable:
 
 ```bash
-pyinstaller --onefile matrix_rain.py
+pyinstaller --onefile --name matrix matrix_rain.py
 ```
 
 This generates a standalone executable in the `dist/` folder.
@@ -123,6 +124,7 @@ Here's a quick overview of the key files:
 |--------------------|-------------------------------------------|
 | `matrix_rain.py`   | Main script for the Matrix Rain animation |
 | `alias_setup.sh`   | Shell script to set up the `matrix` alias |
+| `Screenshots`      | Different matrix raining simulations      |
 | `README.md`        | Project documentation and instructions    |
 
 ---
