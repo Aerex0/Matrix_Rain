@@ -148,7 +148,7 @@ Here's a quick overview of the key files:
 |--------------------|-------------------------------------------|
 | `matrix_rain.py`   | Main script for the Matrix Rain animation |
 | `alias_setup.sh`   | Shell script to set up the `matrix` alias |
-| `Screenshots`      | Different matrix raining simulations      |
+| `themes`      | Different matrix raining simulations      |
 | `README.md`        | Project documentation and instructions    |
 
 ---
